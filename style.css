@@ -164,23 +164,27 @@ contact form here
 }
 .footer{
 
-	background-color:#000;
+	background-color:transparent;
 	padding: 80px 0px;
 	
 	width: 100%;}
 
 .col h6{
-	color: #FFFFFF;
+	color: #CECECE;
 	font-family: 'Roboto',sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 20px;
 
 }
+.container{
+	background-color: white;
+	list-style: none;
+}
 .col .menu ul li a{
 	list-style: none;
-	
-	color: #CECECE;
+	transform: scale(1.2);
+	color: black;
 	font-family: 'poppins',sans-serif;
 	line-height: 26px;
 	
@@ -247,8 +251,11 @@ font-family: 'poppins',sans-serif;
 }
 .social-icon ul li a i:hover{
        border: 2px solid white;
+       background-color: transparent;
+       color: tomato;
        transform: scale(1.2);
        transform: 0.5s ease-in-out;
+       transform: rotate(360deg);
 
 
 }
